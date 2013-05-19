@@ -67,9 +67,7 @@ var db = levelup('/tmp/dprk.db', {valueEncoding: 'json'},  function (err, db) {
         dob        : '1979',
         occupation : 'Car'
       }
-    }], function (err) {
-      
-    }
+    }], function (err) {}
   );
 
   // db.batch([
